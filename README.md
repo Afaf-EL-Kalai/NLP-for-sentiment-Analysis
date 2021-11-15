@@ -5,12 +5,15 @@ I worked on a dataset of Tweets, which I preprocessed and transformed, into a di
 
 ## The dataset
 
-- The training dataset : training.json : This file contains ~15k raw tweets, with their polarity labels (1 = positive, 0 = neutral, -1 = negative). positive, 0 = neutral, -1 = negative).
+- The training dataset : "training.json"  contains 16805 raw tweets, with their polarity labels (1 = positive, 0 = neutral, -1 = negative). 
 
-- The test dataset : develop.json
+- The test dataset : "develop.json" contains 1829k raw tweets, with their polarity labels (1 = positive, 0 = neutral, -1 = negative).
 
 ## The code
 - Code using preprocessing TF-IDF : intro-to-nlp.ipynb
 
 - Code preprocessing using word2vec : word2vec.ipynb
 
+## The rapport
+
+Please reffer to the rapport to further your knowledge of the theory of Word2vec, SVM and Latent Dirichlet Allocation approaches. Note that it is written in French ^_^
