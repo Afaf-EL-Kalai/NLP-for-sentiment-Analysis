@@ -1,0 +1,92 @@
+﻿intents={"intents": [
+    
+      {"tag": "ket",
+     "patterns": ["C’est quoi un ket ?","Comment définir et décrire l’état d’un système ?","Est-ce que le ket suffit pour décrire totalement un système physique à un instant donné t ?"],     
+     "responses": ["En mécanique quantique, un état physique est représenté par un vecteur d’état dans un espace vectoriel complexe E . Suivant Dirac, nous appellerons un tel vecteur un ket et le noterons |ψ>. D’après le premier postulat, ce ket contient toute l’information sur l’état physique ; tout ce que nous sommes autorisés à demander à propos de cet état est contenu dans le ket. Premier Postulat (état quantique) : l’état d’un système physique à un instant donné t est défini par la donnée d’un ket |ψ(t)>appartenant à un espace des états E. Les états |ψ> et c|ψ>, où c≠0, représentent le même état physique. En d’autres termes, seule la “direction” dans l’espace vectoriel est significative. Le terme de “rayon” est parfois employé au lieu de “vecteur”.],
+     "context": [""]
+     },
+     {"tag":" postulat1",
+      "patterns":["Quelle est le premier postulat de la mécanique quantique ?","C’est quoi Le postulat 1 de la mécanique quantique ?","Qu’est-ce qu’un état quantique ?"],
+      "responses":["Premier Postulat (état quantique) : l’état d’un système physique à un instant donné t est défini par la donnée d’un ket |ψ(t)i appartenant à un espace des états E."],
+      "context": [""]
+     },
+     {"tag":"postulat2",
+      "patterns":[" Quelle est le deuxième postulat de la mécanique quantique ?" ,"C’est quoi Le postulat 2 de la mécanique quantique ?","Quelle est le  principe de la correspondance en mécanique quantique ?"],
+      "responses":["Deuxième Postulat (principe de correspondance) : Toute grandeur physique mesurable est décrite par un opérateur agissant dans l’espace des états. Cet opérateur est une observable."],
+      "context":[""]
+     },
+     {"tag":"postulat3",
+      "patterns":["Quelle est le troisième postulat de la mécanique quantique ?","C’est quoi Le postulat 3 de la mécanique quantique ?","C’est quoi le postulat de la mesure dans la mécanique quantique ?"],
+      "responses":["Troisième Postulat (postulat de la mesure) : la mesure d’une grandeur physique représentée par une observable A sur un système ne peut fournir que l’une des valeurs propres de l’opérateur A."],
+      "context":[""]
+      },
+     {"tag":"postulat4",
+      "patterns":["Quelle est le quatrième postulat de la mécanique quantique ?",
+                  "C’est quoi Le postulat 4 de la mécanique quantique ?",
+                  "C'est quoi le postulat de l’interprétation probabiliste dans la mécanique quantique ?",
+                  "Quelle est le postulat de Born ?"],
+      "responses":["Quatrième Postulat (interprétation probabiliste) : la mesure d’une grandeur physique représentée par une observable A, effectuée sur un système décrit par un état normalisé |ψ> donne le résultat an avec la probabilité :Pn = < 𝒂𝒏|ψ > (cas d’un spectre discret et non dégénéré).Pn=∑< 𝒂𝒏|𝛙 >𝒏 (cas d’un spectre discret et dégénéré)"],
+      "context":[""]
+      },
+      
+      {"tag":"postulat5",
+      "patterns":["Quelle est le cinquième postulat de la mécanique quantique ?","C’est quoi Le postulat 5 de la mécanique quantique ?","C’est quoi le postulat de réduction du paquet d’ondes  dans la mécanique quantique ?","Quelle est le postulat de réduction du paquet d’ondes ?"],
+      "responses":["Cinquième Postulat (réduction du paquet d’ondes) : si la mesure de l’observable A sur un système dans un état |ψ > donne le résultat 𝒂𝒏 , l’état du système immédiatement après la mesure est la projection normée de |ψ> sur le sous-espace propre associé à 𝒂𝒏 :\n 𝑷𝒏̃|ψ> /√𝑷(𝒂𝒏)\n 𝑷𝒏̃ : l'opérateur projecteur défini par : 𝑷𝒏̃ = ∑|𝒂𝒏,𝒌 ><𝒂𝒏,𝒌 |𝒈𝒏𝒌=𝟏 , 𝒈𝒏 étant le dégré de dégénérescence de la valeur propre 𝒂𝒏 et |𝒂𝒏,𝒌 > ses vecteurs propres associés.\n 𝑷(𝒂𝒏) : est la probabilité de trouver comme résultat la valeur propre 𝒂𝒏."],
+      "context":[""]
+      },
+       {"tag":"postulat6",
+      "patterns":["Quelle est le sixième postulat de la mécanique quantique ?",
+                   "C’est quoi Le postulat 6 de la mécanique quantique ?",
+                   "C’est quoi le postulat de l’évolution temporelle de l'état quantique ?",
+                   "Quelle est l’équation de Schrödinger?"],
+      "responses":["Sixième Postulat (évolution temporelle) : L’évolution temporelle du ket d’état |ψ(t)i est gouvernée par l’équation de Schrödinger :\n i𝒉̅ 𝒅|𝛙(𝐭)>𝒅𝒕 = H(t)|ψ(t)>\n où l’opérateur Hamiltonien, H(t), qui correspond à l’observable associée à l’énergie totale du système, dépend éventuellement du temps.\n Cette équation est l'équation dynamique de la mécanique quantique. Elle signifie simplement que c'est l'opérateur « énergie totale » du système ou Hamiltonien, qui est responsable de l'évolution du système dans le temps."],
+      "context":[""]
+      },
+       {"tag":"observable",
+      "patterns":["definition d'un observable","la difference entre un observable et un opérateur","les proprietées vérifiées par un observateur"],
+      "responses":["Un observable est un opérateur qui vérifie les propriétés suivante :\n - Il est linéaire.\n - Les valeurs propres de A, autrement dit les résultats possibles de l'opération de mesure, doivent être des nombres réels. Ceci est assuré si A est un opérateur hermitien.\n - Les vecteurs propres de A doivent former une base orthonormée de l’espace des états. { <𝒖𝒏𝒊| } forme une base orthonormée si :\n - <𝒖𝒏𝒊|𝒖𝒏𝒊> = 𝜹𝒊𝒋𝜹𝒏𝒎\n - La relation de fermeture est vérifiée :∑∑|𝒖𝒏𝒊><𝒖𝒏𝒊|𝒈𝒏𝒊=𝟏𝒏=1"],
+      "context":[""]
+      },
+       {"tag":"opérateur",
+      "patterns":["qu'est ce qu'un opérateur en mécanique quantique?"],
+      "responses":["C’est un être mathématique qui agit sur une fonction pour donner une autre. Une grandeur physique est représentée par un opérateur ou observable agissant dans l’espace des états. De manière générale, un opérateur A agit sur un ket depuis la gauche, A · (|ψ>) = A|ψ> ce qui donne un autre ket."],
+      "context":[""]
+      },
+       {"tag":"ket_propre",
+      "patterns":["Qu’est-ce que c’est que les Kets propres ?",
+                   "Comment définir les kets propres d’un opérateur ?",
+                   "Quelles sont les kets propres d’un observable ?",
+                   "Quelles sont les états propres ?",
+                   "Quelles sont les vecteurs propres d’un opérateur ?"],
+      "responses":["les vecteurs propres décrivent l'état quantique du système immédiatement après la mesure et résultant de cette mesure (voir postulat V : réduction du paquet d'onde).Ce sont les kets propres d’un opérateur A. Ils sont notés |𝒂𝟏>, |𝒂𝟐>, |𝒂𝟑>, . . . et ont la propriété que\n  A |𝒂𝒏> = 𝒂𝒏 |𝒂𝒏> (∀n)\n où les 𝒂𝒏 sont des nombres complexes. Ces nombres sont les valeurs propres de l’opérateur A. L’ensemble de ces nombres, {an}, constitue le spectre de A.\n L'état physique associé à un ket propre est appelé un état propre.\n Les états propres de tout observable A sont complets et forment une base orthonormée dans l'espace de Hilbert qui est l’espaces des états."],
+      "context":[""] 
+      },
+       {"tag":"spectre_observable",
+      "patterns":[" Que represente le spectre d'un observable?"],
+      "responses":["On appelle spectre de l'observable A, l'ensemble des valeurs propres de A. C'est l'ensemble des valeurs propres associées à la base de E ( espace des kets ), formée de vecteurs propres de l'observable A."],
+      "context":[""]
+      },
+       {"tag":"bra",
+      "patterns":["C’est quoi un bra ?",
+                  "Comment déterminer le bra associé à un ket ?",
+                  "Qu’est ce que c’est qu’un espace de bras ?"],
+      "responses":["L’espace des bras, un espace vectoriel “dual” à l’espace des kets. Nous postulons qu’à chaque ket |ψ> correspond un bra conjugué, noté <ψ| qui est dans l’espace des bras. L’espace des bras est engendré par des bras propres {<𝒂𝒏 |} correspondant aux kets propres {|𝒂𝒏 >} d’un certain opérateur A. Il y a une correspondance un à un entre l’espace des kets et celui des bras :\n|ψ> ← CD → <ψ| ,\n |𝒂𝟏 >,|𝒂𝟐 >},|𝒂𝟑 >}. . . ← CD → <𝒂𝟏 |,<𝒂𝟐 |,<𝒂𝟑 | . . . \n,|ψ> + |φ> ← CD → <ψ| + <φ| ,\n 𝒄𝟏|ψ1> + 𝒄𝟐|ψ2> ← CD → 𝒄𝟏*<ψ1| +𝒄𝟐* <ψ2| \n Où CD correspond à correspondance par dualité."],
+      "context":[""]
+      },
+       {"tag":"produit dyadique",
+      "patterns":["C’est quoi un produit dyadique ?","Le produit d'un ket et bra est ce un scalaire ou opérateur?", "le produit ket fois bra"],
+      "responses":["Le produit dyadique est défini par |ψ><φ|. Ce produit n’a rien à voir avec le produit scalaire. Il correspond à un opérateur agissant dans l’espace des états tandis que le produit scalaire <φ|ψ>est un nombre."],
+      "context":[""]
+      },
+ {"tag":"produit_tensoriel",
+      "patterns":["C’est quoi un produit tensoriel de deux états?"],
+      "responses":["Soit les kets |ψ> ∈ E et |φ> ∈ G qui appartiennent à des espaces différents ; le produit |ψ>|φ> = |ψi> ⊗ |φ> correspond au produit tensoriel de ces deux états.\n\nNotons aussi que pour deux états |ψi ∈ E et |φi ∈ E appartenant à un même espace des états, des produits du type : |ψ>|φ>, ou <ψ|<φ|, n’ont aucun sens et peuvent donc être considérés comme étant “illégaux”."],
+      "context":[""]
+      },
+       {"tag":"definition_adjoint",
+      "patterns":["C’est quoi un opérateur adjoint ?","Definition opérateur adjoint","Comment calculer l’opérateur adjoint d’un opérateur quelconque ?"],,
+      "responses":["Un opérateur adjoint est un opérateur sur un espace préhilbertien qui est défini à partir d'un autre opérateur A et que l'on note 𝑨+. On dit aussi que 𝑨+ est l'adjoint de l'opérateur A. Il vérifie par définition :\n (|φ>, A|ψ>) = (𝑨+|φ>, |ψ>)\n Ou <φ|A|ψ> = < ψ|𝑨+|φ>*\n En pratique, si l’opérateur A admet une représentation matricielle, son opérateur adjoint est tout simplement le conjugué de la transposé."],
+      "context":[""]
+      }
+     ]
+}
