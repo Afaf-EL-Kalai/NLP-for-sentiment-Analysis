@@ -10,9 +10,9 @@ I worked on a dataset of Tweets, which I preprocessed and transformed, into a di
 - The test dataset : "develop.json" contains 1829k raw tweets, with their polarity labels (1 = positive, 0 = neutral, -1 = negative).
 
 ## The code
-- Code using preprocessing TF-IDF : intro-to-nlp.ipynb
+- Text Vectorization using the approach TF-IDF : intro-to-nlp.ipynb
 
-- Code preprocessing using word2vec : word2vec.ipynb
+- Text Vectorization using the approach word2vec : word2vec.ipynb
 
 ## The rapport
 
