@@ -16,4 +16,4 @@ I worked on a dataset of Tweets, which I preprocessed and transformed, into a di
 
 ## The rapport
 
-Please reffer to the rapport to further your knowledge of the theory of Word2vec, SVM and Latent Dirichlet Allocation approaches. Note that it is written in French ^_^
+Please refer to the rapport to further your knowledge of the theory of Word2vec, SVM and Latent Dirichlet Allocation approaches. Note that it is written in French ^_^
